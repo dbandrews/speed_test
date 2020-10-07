@@ -16,3 +16,8 @@ pip install speedtest-cli
 Confirm paths in the batch file, Vbs script and scheduled task to match your folder structure. Ensure the Python executable in the batch file CALL statement is correct.
 
 Using the VbScript method allows for running when user is logged on/off.
+
+Log file is of the format:
+
+|Download Speed (bytes/s)|Upload (bytes/s)|Ping(ms)|Datetime|
+|------------------------|-----------------|--------|--------|
